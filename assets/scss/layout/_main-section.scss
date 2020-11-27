@@ -1,0 +1,57 @@
+.container{
+    color: $raisinblack;
+    &__fecha{
+        font-size: $large;
+        font-family: $playfair;
+    }
+    &__parrafouno, &__parrafodos, &__parrafotres, &__parrafocuatro{
+        font-size: $medium;
+        line-height: 2.813em;
+    }
+}
+.section-nahomi{
+    border-top: 1px solid $platinum;
+    &__cont-nahomi{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    &__imgnahomi{
+        border-radius: 50%;
+        border: 1px solid $platinum;
+    }
+    &__rrssweb{
+        color: $ruddypink;
+        font-family: $roboto;
+        font-size: $large;
+        font-weight: $claro;
+    }
+    &__txtlateral{
+        line-height: 2.188em;
+        font-family: $roboto;
+        font-size: $small;
+        color: $nickel;
+        font-weight: $regular;
+    }
+    h2{
+        font-family: $playfair;
+        font-size: $x-large;
+        font-weight: $blackitalic;
+        font-style: italic;
+        color: $erieblack;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-nahomi{
+        &__cont-nahomi{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__imgnahomi{
+            width: 30%;
+        }
+}
+}

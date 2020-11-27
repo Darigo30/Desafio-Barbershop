@@ -1,0 +1,15 @@
+.botones{
+    border-radius: 3.125em;
+    height: 3.125em;
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $regular;
+}
+.fas.fa-angle-double-down {
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2.5em;
+}

@@ -1,0 +1,23 @@
+.bg-pag{
+    background-color: $platinum;
+}
+.pagination{
+    font-family: $roboto;
+}
+.page-item:first-child .page-link{
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    color: $grisclarito;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    color: $erieblack;
+}
+.page-item.active .page-link {
+    background-color: $grisclarito;
+    border-color: $grisclarito;
+}
+.page-link {
+    color: $erieblack;
+}
